@@ -1,0 +1,50 @@
+.resultspage-container {
+	display: flex;
+	flex-direction: column;
+
+	height: 100vh; /* Set the height to full viewport height */
+	background-color: rgb(122, 255, 133);
+	
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-left: 3vw;
+	margin-top: 3vh;
+	
+}
+
+.address-button, .param-button {
+	padding: 8px 15px;
+	font-size: 20px;
+	background-color: #42aee0; /* Blue color, you can change this */
+	color: #fff; /* White text color */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 15px;
+  }
+  .param-button {
+
+	background-color: #9856ee; /* Blue color, you can change this */
+  }
+
+.results-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	
+	
+}
+
+  .resultspage-title {
+	font-size: min(8vw, 50px);
+	margin-bottom: 20px;
+	color: #fff;
+	
+  }
+
+ 

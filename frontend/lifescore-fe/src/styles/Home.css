@@ -1,0 +1,77 @@
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Set the height to full viewport height */
+	background-color: rgb(136, 124, 241);
+	
+}
+  
+  .home-title {
+	font-size: min(8vw, 50px);
+	margin-bottom: 20px;
+	color: #fff;
+	
+  }
+
+  .scrollable-content {
+	width: 300px;
+	max-height: 800px; /* Adjust the max height as needed */
+	overflow-y: auto; /* Enable vertical scrolling */
+	margin-bottom: 25px;
+	margin-left: 40px;
+  }
+  
+  .scale-slider {
+	margin-bottom: 50px;
+	
+  }
+  
+  .scale-slider p {
+	margin-bottom: 10px;
+	text-align: center;
+	margin-right: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	
+  }
+  
+  .scale-slider input[type="range"] {
+	width: 250px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: #4a77f1;
+	outline: none;
+
+  }
+  
+  .scale-slider input[type="range"]::-webkit-slider-thumb {
+
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #f2ff00;
+	cursor: pointer;
+  }
+  
+  .scale-slider span {
+	display: block;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 40px;
+	
+  }
+  
+  .proceed-button {
+	padding: 8px 15px;
+	font-size: 20px;
+	background-color: #f89a1e; /* Blue color, you can change this */
+	color: #fff; /* White text color */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 30px;
+  }
+  
