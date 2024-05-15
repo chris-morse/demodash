@@ -43,9 +43,9 @@ function ScaleSlider({ prompt }) {
 
 function Home() {
 
-  return (
+	return (
 
-    <div className="home-container">
+	<div className="home-container">
       <h1 className="home-title">Input Parameters</h1>
 	  <div className="scrollable-content">
 		<ScaleSlider prompt="Grocery Store" />
